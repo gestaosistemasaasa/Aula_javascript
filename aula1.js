@@ -1,12 +1,11 @@
-const numero1 = 1;
+let nome = "Junior";
+let idade = 28;
 
+console.log("Nome:", nome);
+console.log("Idade:", idade);
 
-if (numero1 === 1) {
-    numero3 = 3;
-
+if (idade >= 18) {
+    console.log("Maior de idade");
+} else {
+    console.log("Menor de idade");
 }
-
-console.log('resultado', numero3
-
-)
-
